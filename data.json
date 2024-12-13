@@ -1,33 +1,29 @@
 {
-  "counter": {
-    "tro": 0,
-    "llamp": 0
-  },
   "elements": [
     {
-      "title": "Prova puntuable",
+      "title": "Prova puntuable 1",
       "points": 100,
-      "winner": no disputada
+      "winner": "no disputada"
     },
     {
-      "title": "Prova puntuable",
+      "title": "Prova puntuable 2",
       "points": 100,
-      "winner": no disputada
+      "winner": "no disputada"
     },
     {
-      "title": "Prova puntuable",
+      "title": "Prova puntuable 3",
       "points": 100,
-      "winner": no disputada
+      "winner": "no disputada"
     },
     {
-      "title": "Prova puntuable",
+      "title": "Prova puntuable 4",
       "points": 100,
-      "winner": no disputada
+      "winner": "no disputada"
     },
     {
-      "title": "Prova puntuable",
+      "title": "Prova puntuable 5",
       "points": 100,
-      "winner": no disputada
+      "winner": "no disputada"
     }
   ]
 }
