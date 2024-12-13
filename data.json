@@ -1,0 +1,33 @@
+{
+  "counter": {
+    "tro": 0,
+    "llamp": 0
+  },
+  "elements": [
+    {
+      "title": "Prova puntuable",
+      "points": 100,
+      "winner": none
+    },
+    {
+      "title": "Prova puntuable",
+      "points": 100,
+      "winner": none
+    },
+    {
+      "title": "Prova puntuable",
+      "points": 100,
+      "winner": none
+    },
+    {
+      "title": "Prova puntuable",
+      "points": 100,
+      "winner": none
+    },
+    {
+      "title": "Prova puntuable",
+      "points": 100,
+      "winner": none
+    }
+  ]
+}
