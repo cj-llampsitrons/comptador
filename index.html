@@ -60,6 +60,9 @@
 
         // Loop through the elements in the JSON
         data.elements.forEach(element => {
+          // Check for unknown winner and set it to "Sense guanyador" if necessary
+          const winner = (element.winner === 'tro' || element.winner === 'llamp') ? element.winner : 'Sense guanyador';
+
           // Create a new row for each element
           const row = document.createElement('tr');
 
@@ -72,15 +75,15 @@
           row.appendChild(pointsCell);
 
           const winnerCell = document.createElement('td');
-          winnerCell.textContent = element.winner;
+          winnerCell.textContent = winner;
           row.appendChild(winnerCell);
 
           tableBody.appendChild(row);
 
           // Update counters based on the winner
-          if (element.winner === 'tro') {
+          if (winner === 'tro') {
             troPoints += element.points;
-          } else if (element.winner === 'llamp') {
+          } else if (winner === 'llamp') {
             llampPoints += element.points;
           }
         });
