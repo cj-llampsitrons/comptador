@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Table Display</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    th, td {
+      padding: 8px;
+      text-align: center;
+    }
+    .counter {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="counter">
+    <span id="counter-tro">Tro: 0</span> | <span id="counter-llamp">Llamp: 0</span>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Points</th>
+        <th>Winner</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+      <!-- Table rows will be inserted here by JavaScript -->
+    </tbody>
+  </table>
+
+  <script>
+    // Function to fetch the JSON data and populate the table and counters
+    async function loadJSON() {
+      try {
+        // Fetch the JSON file (assuming it is named 'data.json' and is in the same folder)
+        const response = await fetch('data.json');
+        const data = await response.json();
+
+        // Variables to hold the points for 'tro' and 'llamp'
+        let troPoints = 0;
+        let llampPoints = 0;
+
+        const tableBody = document.getElementById('table-body');
+        tableBody.innerHTML = '';  // Clear existing table content
+
+        // Loop through the elements in the JSON
+        data.elements.forEach(element => {
+          // Create a new row for each element
+          const row = document.createElement('tr');
+
+          const titleCell = document.createElement('td');
+          titleCell.textContent = element.title;
+          row.appendChild(titleCell);
+
+          const pointsCell = document.createElement('td');
+          pointsCell.textContent = element.points;
+          row.appendChild(pointsCell);
+
+          const winnerCell = document.createElement('td');
+          winnerCell.textContent = element.winner;
+          row.appendChild(winnerCell);
+
+          tableBody.appendChild(row);
+
+          // Update counters based on the winner
+          if (element.winner === 'tro') {
+            troPoints += element.points;
+          } else if (element.winner === 'llamp') {
+            llampPoints += element.points;
+          }
+        });
+
+        // Update the counter display
+        document.getElementById('counter-tro').textContent = `Tro: ${troPoints}`;
+        document.getElementById('counter-llamp').textContent = `Llamp: ${llampPoints}`;
+
+      } catch (error) {
+        console.error('Error loading JSON file:', error);
+      }
+    }
+
+    // Call the loadJSON function to fetch data and populate the table
+    loadJSON();
+  </script>
+
+</body>
+</html>
