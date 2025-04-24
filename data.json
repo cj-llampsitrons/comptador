@@ -26,6 +26,11 @@
       "winner": "no"
     },
     {
+      "title": "Pescapunts i Punteria",
+      "points": 100,
+      "winner": "no"
+    },
+    {
       "title": "Correbars",
       "points": 100,
       "winner": "no"
@@ -42,6 +47,16 @@
     },
     {
       "title": "Torneig de Petanca",
+      "points": 100,
+      "winner": "no"
+    },
+    {
+      "title": "Torneig de Tenis Taula",
+      "points": 100,
+      "winner": "no"
+    },
+    {
+      "title": "Motor Club",
       "points": 100,
       "winner": "no"
     },
