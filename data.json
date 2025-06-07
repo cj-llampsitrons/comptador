@@ -61,9 +61,14 @@
       "winner": "no"
     },
     {
-      "title": "Llançament de pinyols d'oliva",
+      "title": "Llançament de pinyols d'oliva infantil",
       "points": 100,
-      "winner": "no"
+      "winner": "Llamps"
+    },
+   {
+      "title": "Llançament de pinyols d'oliva adult",
+      "points": 100,
+      "winner": "Trons"
     },
     {
       "title": "Torneig d'Escacs",
