@@ -63,7 +63,7 @@
     {
       "title": "Torneig d'Escacs",
       "points": 100,
-      "winner": "no"
+      "winner": "Llamps"
     },
     {
       "title": "Tarda d'Esplais",
@@ -74,6 +74,11 @@
       "title": "Torneig d'Hanbol",
       "points": 100,
       "winner": "no"
+    },
+    {
+      "title": "Torneig de petanca",
+      "points": 100,
+      "winner": "Llamps"
     },
     {
       "title": "Joc del Rotllo",
