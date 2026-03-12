@@ -73,7 +73,7 @@
     {
       "title": "Torneig de petanca",
       "points": 100,
-      "winner": "no"
+      "winner": "Trons"
     },
     {
       "title": "Joc del Rotllo",
@@ -93,7 +93,7 @@
     {
       "title": "Test",
       "points": 500,
-      "winner": "Trons"
+      "winner": "Llamps"
     }
   ]
 }
