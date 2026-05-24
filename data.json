@@ -28,7 +28,7 @@
     {
       "title": "Bàsquet Nocturn",
       "points": 100,
-      "winner": "Sense puntuació"
+      "winner": "Sense guanyador"
     },
     {
       "title": "Torneig de Futbet",
@@ -97,7 +97,7 @@
     },
     {
       "title": "Estirada de corda (desempat)",
-      "points": "100",
+      "points": 100,
       "winner": "Sense guanyador"
     }
   ]
