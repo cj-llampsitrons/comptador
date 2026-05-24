@@ -99,6 +99,16 @@
       "title": "Estirada de corda (desempat)",
       "points": 100,
       "winner": "Sense guanyador"
+    },
+    {
+      "title": "Test",
+      "points": 0,
+      "winner": "Per disputar"
+    },
+    {
+      "title": "Test2",
+      "points": 0,
+      "winner": "Per disputar"
     }
   ]
 }
