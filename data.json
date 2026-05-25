@@ -1,17 +1,7 @@
 {
   "elements": [
     {
-      "title": "Concurs d'Instagram",
-      "points": 100,
-      "winner": "Trons"
-    },
-    {
-      "title": "Biblioteca els Safreigs",
-      "points": 100,
-      "winner": "Trons"
-    },
-    {
-      "title": "Torneig de botifarra",
+      "title": "Torneig de Màgic",
       "points": 100,
       "winner": "Trons"
     },
@@ -19,6 +9,16 @@
       "title": "Prova sorpresa",
       "points": 100,
       "winner": "Llamps"
+    },
+    {
+      "title": "Concurs d'Instagram",
+      "points": 100,
+      "winner": "Trons"
+    },
+    {
+      "title": "Torneig de botifarra",
+      "points": 100,
+      "winner": "Trons"
     },
     {
       "title": "Correbars",
@@ -46,14 +46,24 @@
       "winner": "Trons"
     },
     {
-      "title": "Torneig d'escacs",
+      "title": "Concurs de puzles ",
       "points": 100,
       "winner": "Llamps"
     },
     {
-      "title": "Torneig de Màgic",
+      "title": "Torres canyeres",
+      "points": 100,
+      "winner": "Llamps"
+    },
+    {
+      "title": "Biblioteca els Safreigs",
       "points": 100,
       "winner": "Trons"
+    },
+    {
+      "title": "Torneig d'escacs",
+      "points": 100,
+      "winner": "Llamps"
     },
     {
       "title": "Tarda d'esplais",
@@ -61,19 +71,9 @@
       "winner": "Llamps"
     },
     {
-      "title": "Concurs de puzles ",
-      "points": 100,
-      "winner": "Llamps"
-    },
-    {
       "title": "Concurs d'arrossos",
       "points": 100,
       "winner": "Trons"
-    },
-    {
-      "title": "Torres canyeres",
-      "points": 100,
-      "winner": "Llamps"
     },
     {
       "title": "Torneig de petanca",
